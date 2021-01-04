@@ -16,7 +16,7 @@ int main() {
 
 	cout << "Values without 3 and 6: " << endl;
 
-	do {
+	while (p) {
 
 		a = num / p;
 		
@@ -27,7 +27,7 @@ int main() {
 		num %= p;
 		p /= 10;
 
-	} while (p);
+	}
 
 	return 0;
 }
